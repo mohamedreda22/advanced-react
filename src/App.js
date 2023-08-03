@@ -1,16 +1,12 @@
-import "./App.css"
-function App() {
+import React from 'react';  
+import CustomHook from './usePrevious';
+function App(){
+  return(
+    <div>
+      <CustomHook/>
+    </div>
+  )
 
 
-    return (
-  
-      <div className="App">
-        <p>
-            hello world!
-        </p>
-  
-  
-      </div>
-    );
-  }
-  export default App
+}
+export default App;
