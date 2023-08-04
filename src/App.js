@@ -1,10 +1,10 @@
 import React from 'react';  
-import CustomHook from './usePrevious';
+import LoginApp from './logIn&signUpApp';
 function App(){
   return(
     <div>
-      <CustomHook/>
-    </div>
+<LoginApp/>    
+</div>
   )
 
 
