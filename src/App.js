@@ -1,12 +1,11 @@
-import React from 'react';  
-
-function App(){
-  return(
-    <div>
-      <a href='https://littlelemon.com'>Little Lemon Resturant</a>
-</div>
-  )
-
-
+import "./App.css";
+import TestApp from "./test";
+function App() {
+  return (
+    <div className="App">
+      <TestApp/>
+    </div>
+  );
 }
+
 export default App;
